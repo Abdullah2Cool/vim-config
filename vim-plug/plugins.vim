@@ -15,4 +15,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
 
+    Plug 'joshdick/onedark.vim'
+    
+    Plug 'neoclide/coc.nvim', {'branch':'release'}
+
+    Plug 'vim-airline/vim-airline'
+    
+    Plug 'vim-airline/vim-airline-themes'
+
+    Plug 'ryanoasis/vim-devicons'
+
+    Plug 'mhinz/vim-startify'
+
 call plug#end()
